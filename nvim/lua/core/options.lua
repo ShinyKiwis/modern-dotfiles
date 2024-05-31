@@ -30,3 +30,6 @@ opt.completeopt = "menuone,noinsert,noselect"
 opt.splitright = true
 opt.splitbelow = true
 opt.clipboard:append("unnamedplus")
+
+vim.opt.cursorline = true
+vim.cmd('set cursorlineopt=number')
